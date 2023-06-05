@@ -1,0 +1,142 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+$fa-font-path: "../fonts/webfonts" !default;
+
+
+
+
+
+header {
+    img {
+        width: 55px;
+    }
+
+    li {
+        border-bottom: 3px solid transparent;
+        height: 100%;
+
+        a {
+            color: black;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #097eed; 
+            border-bottom: 3px solid #097eed;
+
+        }
+
+    }
+}
+
+
+
+main {
+    .jumbo {
+        width: 100%;
+        height: 400px;
+        background-image: url(../../public/images/jumbotron.jpg);
+        background-size:cover;
+        position: relative;
+    }
+
+    button {
+        background-color: #097eed;
+        color: white;
+        font-weight: 700;
+        padding: 3rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .series {
+        position: absolute;
+        bottom: -20px;
+        left: 100px;
+        font-size: 1rem;
+    }
+
+    img {
+        max-height: 250px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+
+#pop-up{
+    background-color: #097eed;
+    color: white;
+    height: 100px;
+
+    img {
+        width: 45px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+#footer-top {
+    background-image: url(../../public/images/footer-bg.jpg);
+    height: 350px;
+    color: white;
+    overflow: hidden;
+
+    a {
+        text-decoration: none;
+        color:rgb(158, 155, 155)
+    }
+    .cover-img {
+       background-image: url(../../public/images/dc-logo-bg.png);
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+       
+    }
+}
+#footer-bottom {
+    height: 80px;
+    background-color: #302f2f;
+
+
+button {
+    background-color: blue;
+    color: white;
+    border-color: #097eed;
+    padding: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: #097eed;
+}
+
+img {
+    width: 50px;
+}
+}
+
+
+
+
+ul {
+    list-style: none;
+    
+
+}
+.active {
+    border-bottom: 4px solid #097eed;
+}
+
